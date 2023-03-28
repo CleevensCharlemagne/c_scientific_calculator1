@@ -57,3 +57,10 @@ do {
     printf(“\nResult: %f”, result);
     break;
 
+    case 5:
+    printf(“Enter X: “);
+    scanf(“%f”, &x);
+    result = sqrt(x);
+    printf(“\nResult: %f”, result);
+    break;
+
