@@ -102,3 +102,11 @@ do {
     result = pow(x, (1/y));
     printf(“\nResult: %f”, result);
     break;
+
+    case 11:
+    printf(“Enter X: “);
+    scanf(“%f”, &x);
+    y = 3;
+    result = pow(x, (1/y));
+    printf(“\nResult: %f”, result);
+    break;
