@@ -117,3 +117,13 @@ do {
     result = pow(10, x);
     printf(“\nResult: %f”, result);
     break;
+
+    case 13:
+    printf(“Enter X: “);
+    scanf(“%f”, &x);
+    result = 1;
+    for(i = 1; i <= x; i++) {
+    result = result * i;
+    }
+    printf(“\nResult: %.f”, result);
+    break;
