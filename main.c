@@ -127,3 +127,12 @@ do {
     }
     printf(“\nResult: %.f”, result);
     break;
+
+    case 14:
+    printf(“Enter X: “);
+    scanf(“%f”, &x);
+    printf(“\nEnter Y: “);
+    scanf(“%f”, &y);
+    result = (x * y) / 100;
+    printf(“\nResult: %.2f”, result);
+    break;
