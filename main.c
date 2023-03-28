@@ -1,8 +1,9 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
 
-int main()
-{
-    printf("Hello world!\n");
-    return 0;
-}
+
+int main(void) {
+int choice, i, a, b;
+float x, y, result;
+clrscr();
