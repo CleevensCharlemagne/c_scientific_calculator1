@@ -94,3 +94,11 @@ do {
     printf(“\nResult: %f”, result);
     break;
 
+    case 10:
+    printf(“Enter X: “);
+    scanf(“%f”, &x);
+    printf(“\nEnter Y: “);
+    scanf(“%f”, &y);
+    result = pow(x, (1/y));
+    printf(“\nResult: %f”, result);
+    break;
