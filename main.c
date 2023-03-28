@@ -87,3 +87,10 @@ do {
     printf(“\nResult: %f”, result);
     break;
 
+    case 9:
+    printf(“Enter X: “);
+    scanf(“%f”, &x);
+    result = pow(x, -1);
+    printf(“\nResult: %f”, result);
+    break;
+
