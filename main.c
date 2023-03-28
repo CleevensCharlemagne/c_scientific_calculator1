@@ -167,3 +167,10 @@ do {
     printf(“\nResult: %.2f”, result);
     break;
 
+    case 19:
+    printf(“Enter X: “);
+    scanf(“%f”, &x);
+    result = tan(x * 3.14159 / 180);
+    printf(“\nResult: %.2f”, result);
+    break;
+
