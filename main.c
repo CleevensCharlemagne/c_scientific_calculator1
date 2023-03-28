@@ -188,3 +188,13 @@ do {
     printf(“\nResult: %.2f”, result);
     break;
 
+    case 22:
+    printf(“Enter X: “);
+    scanf(“%f”, &x);
+    result = 1 / cos(x * 3.14159 / 180);
+    printf(“\nResult: %.2f”, result);
+    break;
+    default:
+    printf(“\nInvalid Choice!”);
+}
+
