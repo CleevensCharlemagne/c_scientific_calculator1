@@ -136,3 +136,20 @@ do {
     result = (x * y) / 100;
     printf(“\nResult: %.2f”, result);
     break;
+
+    case 15:
+    printf(“Enter X: “);
+    scanf(“%f”, &x);
+    result = log10(x);
+    printf(“\nResult: %.2f”, result);
+    break;
+
+    case 16:
+    printf(“Enter X: “);
+    scanf(“%d”, &a);
+    printf(“\nEnter Y: “);
+    scanf(“%d”, &b);
+    result = a % b;
+    printf(“\nResult: %d”, result);
+    break;
+
