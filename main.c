@@ -17,3 +17,5 @@ printf(“12. 10 ^ X\n13. X!\n14. %\n15. log10(x)\n16. Modulus\n”);
 printf(“17. Sin(X)\n18. Cos(X)\n19. Tan(X)\n20. Cosec(X)\n”);
 printf(“21. Cot(X)\n22. Sec(X)\n”);
 printf(“Choice: “);
+scanf(“%d”, &choice);
+if(choice == 0) exit(0);
