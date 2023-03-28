@@ -80,3 +80,10 @@ do {
     printf(“\nResult: %f”, result);
     break;
 
+    case 8:
+    printf(“Enter X: “);
+    scanf(“%f”, &x);
+    result = pow(x, 3);
+    printf(“\nResult: %f”, result);
+    break;
+
