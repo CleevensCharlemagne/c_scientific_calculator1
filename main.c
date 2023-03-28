@@ -48,3 +48,12 @@ do {
     printf(“\nResult: %f”, result);
     break;
 
+    case 4:
+    printf(“Enter X: “);
+    scanf(“%f”, &x);
+    printf(“\nEnter Y: “);
+    scanf(“%f”, &y);
+    result = x / y;
+    printf(“\nResult: %f”, result);
+    break;
+
