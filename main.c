@@ -19,3 +19,13 @@ printf(“21. Cot(X)\n22. Sec(X)\n”);
 printf(“Choice: “);
 scanf(“%d”, &choice);
 if(choice == 0) exit(0);
+
+switch(choice) {
+case 1:
+printf(“Enter X: “);
+scanf(“%f”, &x);
+printf(“\nEnter Y: “);
+scanf(“%f”, &y);
+result = x + y;
+printf(“\nResult: %f”, result);
+break;
