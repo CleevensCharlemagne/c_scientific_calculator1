@@ -153,3 +153,17 @@ do {
     printf(“\nResult: %d”, result);
     break;
 
+    case 17:
+    printf(“Enter X: “);
+    scanf(“%f”, &x);
+    result = sin(x * 3.14159 / 180);
+    printf(“\nResult: %.2f”, result);
+    break;
+
+    case 18:
+    printf(“Enter X: “);
+    scanf(“%f”, &x);
+    result = cos(x * 3.14159 / 180);
+    printf(“\nResult: %.2f”, result);
+    break;
+
